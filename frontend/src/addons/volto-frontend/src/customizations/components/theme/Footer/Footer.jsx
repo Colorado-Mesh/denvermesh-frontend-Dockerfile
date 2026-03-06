@@ -39,7 +39,7 @@ const Footer = ({ intl }) => {
         >
           <FormattedMessage
             id="Denver Mesh {copyright} {current_year} is licensed under CC BY-SA 4.0."
-            defaultMessage="Denver Mesh {copyright} 2024 is licensed under CC BY-SA 4.0. "
+            defaultMessage="Colorado Mesh {copyright} 2024 is licensed under CC BY-SA 4.0. "
             values={{
               dot: <span>&middot;</span>,
               copyright: <span>&copy;</span>,

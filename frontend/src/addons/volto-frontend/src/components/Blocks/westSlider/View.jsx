@@ -50,9 +50,9 @@ const View = (props) => {
           <div className="slide slide1"
           style={{ textAlign: 'center', color: '#96ffb9'}}
           >
-            <h1>Western Slope - DenverMesh</h1>
+            <h1>Western Slope - ColoradoMesh</h1>
             <h4>
-              Colorado's Meshtastic Group For The Western Slope
+              Colorado's Mesh Network Community For The Western Slope
             </h4>
           </div>
         </div>
