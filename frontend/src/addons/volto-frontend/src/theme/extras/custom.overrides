@@ -3,10 +3,25 @@
 // Background for site
 .ui.basic.segment {
   background: none #2b2d3c;
-  color: #e0e0e0;
+  color: #000000;
   box-shadow: none;
   border: none;
   border-radius: 0px;
+}
+//font color for content areas so it shows correctly
+.ui.basic.segment.content-area {
+  color: white;
+}  
+.ui[class*="right floated"].segment {
+  background-color: #2b2d3c;
+  color: white;
+}  
+.ui.basic.segment .header, .dropdown-popup .ui.popup .menu > .header {
+  color: white;
+} 
+//Listing Items description font color
+.listing-item a p {
+    color: rgb(255 255 255);
 }
 //header background color
 .ui.basic.segment.header-wrapper {
