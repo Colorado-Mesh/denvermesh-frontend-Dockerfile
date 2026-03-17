@@ -22,6 +22,8 @@ import WestSliderEditBlock from './Blocks/westSlider/Edit';
 import WestSliderViewBlock from './Blocks/westSlider/View';
 import EffortsViewBlock from './Blocks/effortsBlock/View';
 import EffortsEditBlock from './Blocks/effortsBlock/Edit';
+import NewsViewBlock from './Blocks/newsBlock/View';
+import NewsEditBlock from './Blocks/newsBlock/Edit';
 
 export { MattermostViewBlock };
 export { MattermostEditBlock };
@@ -35,3 +37,5 @@ export { WestSliderEditBlock };
 export { WestSliderViewBlock };
 export { EffortsViewBlock };
 export { EffortsEditBlock };
+export { NewsEditBlock };
+export { NewsViewBlock };
