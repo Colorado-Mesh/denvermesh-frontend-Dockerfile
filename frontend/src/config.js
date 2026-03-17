@@ -49,6 +49,11 @@ import {
   NewsViewBlock,
 } from 'addons/volto-frontend/src/components';
 
+import {
+  EventEditBlock,
+  EventViewBlock,
+} from 'addons/volto-frontend/src/components';
+
 import sliderSVG from '@plone/volto/icons/slider.svg';
 import imagesSVG from '@plone/volto/icons/images.svg';
 
@@ -186,6 +191,21 @@ export default function applyConfig(config) {
     group: 'common',
     view: NewsViewBlock,
     edit: NewsEditBlock,
+    restricted: false,
+    mostUsed: false,
+    security: {
+      addPermission: [],
+      view: [],
+    },
+  };
+
+  config.blocks.blocksConfig.eventsBlock = {
+    id: 'eventsBlock',
+    title: 'Events Slider Block',
+    icon: sliderSVG,
+    group: 'common',
+    view: EventViewBlock,
+    edit: EventEditBlock,
     restricted: false,
     mostUsed: false,
     security: {

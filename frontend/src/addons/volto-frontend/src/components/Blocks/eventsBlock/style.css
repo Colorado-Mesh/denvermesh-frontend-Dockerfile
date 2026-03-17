@@ -1,0 +1,33 @@
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: #2b2d3c;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#meshCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.banner-content h1 {
+  color: #00a36a;
+  letter-spacing: 8px;
+  font-size: 4rem;
+  text-shadow: 0 0 15px rgba(0, 212, 131, 0.6);
+  margin: 0;
+  text-transform: uppercase;
+}

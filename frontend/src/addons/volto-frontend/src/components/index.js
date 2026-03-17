@@ -24,6 +24,8 @@ import EffortsViewBlock from './Blocks/effortsBlock/View';
 import EffortsEditBlock from './Blocks/effortsBlock/Edit';
 import NewsViewBlock from './Blocks/newsBlock/View';
 import NewsEditBlock from './Blocks/newsBlock/Edit';
+import EventViewBlock from './Blocks/eventsBlock/View';
+import EventEditBlock from './Blocks/eventsBlock/Edit';
 
 export { MattermostViewBlock };
 export { MattermostEditBlock };
@@ -39,3 +41,5 @@ export { EffortsViewBlock };
 export { EffortsEditBlock };
 export { NewsEditBlock };
 export { NewsViewBlock };
+export { EventViewBlock };
+export { EventEditBlock };
