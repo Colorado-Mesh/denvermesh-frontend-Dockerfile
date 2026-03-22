@@ -23,7 +23,7 @@ const ListingView = ({ content }) => {
     <Container id="page-home">
       <section id="content-core">
         {content.items.map((item) => (
-          <Segment key={item.url} className="listing-item" style={{background: '#333333', color: 'white'}}>
+          <Segment key={item.url} className="listing-item" style={{background: '#2b2d3c', color: 'white'}}>
             <Container>
               <h2>
                 <UniversalLink item={item} title={item['@type']}>
