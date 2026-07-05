@@ -28,6 +28,7 @@
   "addons": [
     "@eeacms/volto-block-style",
     "@kitconcept/volto-slider-block",
+    "@eeacms/volto-pdf-block",
     "@codesyntax/volto-menu-customization",
     "volto-form-block",
     "volto-subblocks",
@@ -147,6 +148,7 @@
     "@babel/plugin-proposal-throw-expressions": "7.24.1",
     "@codesyntax/volto-menu-customization": "*",
     "@eeacms/volto-block-style": "*",
+    "@eeacms/volto-pdf-block": "*",
     "@hcaptcha/react-hcaptcha": "1.10.1",
     "@kitconcept/volto-slider-block": "*",
     "@loadable/babel-plugin": "5.16.1",

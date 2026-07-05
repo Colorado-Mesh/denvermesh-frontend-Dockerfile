@@ -1959,6 +1959,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-pdf-block@npm:*":
+  version: 1.0.12
+  resolution: "@eeacms/volto-pdf-block@npm:1.0.12"
+  dependencies:
+    "@mikecousins/react-pdf": 5.5.0
+  checksum: d526aa0b7b49e481df18dc0e6776e277ab8eaab9eb8fdad923f3b44af5d396ca616fa3ce0b7015655169faf654e967e99d3d1d77d8f44802c2d8e801fee14660
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-resize-helper@npm:*":
   version: 2.0.0
   resolution: "@eeacms/volto-resize-helper@npm:2.0.0"
@@ -2998,6 +3007,17 @@ __metadata:
   version: 1.6.22
   resolution: "@mdx-js/util@npm:1.6.22"
   checksum: 4b393907e39a1a75214f0314bf72a0adfa5e5adffd050dd5efe9c055b8549481a3cfc9f308c16dfb33311daf3ff63added7d5fd1fe52db614c004f886e0e559a
+  languageName: node
+  linkType: hard
+
+"@mikecousins/react-pdf@npm:5.5.0":
+  version: 5.5.0
+  resolution: "@mikecousins/react-pdf@npm:5.5.0"
+  dependencies:
+    pdfjs-dist: 2.2.228
+  peerDependencies:
+    react: ">=16"
+  checksum: 8f4c5827423fb6022516623aaf7b6275aade9ac377a54a1872565a1ef8f0775a620182357254358bfd32320a57a2c0fc9a34edc3df86afa4a0c514484bcf5ee7
   languageName: node
   linkType: hard
 
@@ -14211,6 +14231,7 @@ __metadata:
     "@babel/plugin-proposal-throw-expressions": 7.24.1
     "@codesyntax/volto-menu-customization": "*"
     "@eeacms/volto-block-style": "*"
+    "@eeacms/volto-pdf-block": "*"
     "@hcaptcha/react-hcaptcha": 1.10.1
     "@kitconcept/volto-slider-block": "*"
     "@loadable/babel-plugin": 5.16.1
@@ -18560,7 +18581,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loader-utils@npm:^1.0.3, loader-utils@npm:^1.1.0, loader-utils@npm:^1.2.3":
+"loader-utils@npm:^1.0.0, loader-utils@npm:^1.0.3, loader-utils@npm:^1.1.0, loader-utils@npm:^1.2.3":
   version: 1.4.2
   resolution: "loader-utils@npm:1.4.2"
   dependencies:
@@ -19977,6 +19998,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"node-ensure@npm:^0.0.0":
+  version: 0.0.0
+  resolution: "node-ensure@npm:0.0.0"
+  checksum: 1124623beb1dec66889794286ec1761ac3bfac42ce93b8652903efa5af14227edce5bafa06c4e0675cdc850360931d7c9413e3b5406150f05b2c9bf5bb3ccce4
+  languageName: node
+  linkType: hard
+
 "node-fetch@npm:3.3.2":
   version: 3.3.2
   resolution: "node-fetch@npm:3.3.2"
@@ -21301,6 +21329,18 @@ __metadata:
     safe-buffer: ^5.0.1
     sha.js: ^2.4.8
   checksum: 2c950a100b1da72123449208e231afc188d980177d021d7121e96a2de7f2abbc96ead2b87d03d8fe5c318face097f203270d7e27908af9f471c165a4e8e69c92
+  languageName: node
+  linkType: hard
+
+"pdfjs-dist@npm:2.2.228":
+  version: 2.2.228
+  resolution: "pdfjs-dist@npm:2.2.228"
+  dependencies:
+    node-ensure: ^0.0.0
+    worker-loader: ^2.0.0
+  peerDependencies:
+    webpack: ^3.0.0 || ^4.0.0-alpha.0 || ^4.0.0
+  checksum: 8856d80b1787ecdc88eb7773cadb071ad41e712156b586fd8f4b4ae546818f350521653504f798eab2eeea2ca0e9f910c62e4591a25e3f60567fbed1d727b457
   languageName: node
   linkType: hard
 
@@ -25218,6 +25258,16 @@ __metadata:
     ajv: ^6.12.2
     ajv-keywords: ^3.4.1
   checksum: 8889325b0ee1ae6a8f5d6aaa855c71e136ebbb7fd731b01a9d3ec8225dcb245f644c47c50104db4c741983b528cdff8558570021257d4d397ec6aaecd9172a8e
+  languageName: node
+  linkType: hard
+
+"schema-utils@npm:^0.4.0":
+  version: 0.4.7
+  resolution: "schema-utils@npm:0.4.7"
+  dependencies:
+    ajv: ^6.1.0
+    ajv-keywords: ^3.1.0
+  checksum: acee0b7aee127374099846114ee01e3e0eec057e27f8451b2dbdfa43f17ea42ed1e6af876f2a28f5212cb5adef263f99661d0475208417226e5c83c648235b0e
   languageName: node
   linkType: hard
 
@@ -29632,6 +29682,18 @@ __metadata:
   dependencies:
     errno: ~0.1.7
   checksum: eab917530e1feddf157ec749e9c91b73a886142daa7fdf3490bccbf7b548b2576c43ab8d0a98e72ac755cbc101ca8647a7b1ff2485fddb9e8f53c40c77f5a719
+  languageName: node
+  linkType: hard
+
+"worker-loader@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "worker-loader@npm:2.0.0"
+  dependencies:
+    loader-utils: ^1.0.0
+    schema-utils: ^0.4.0
+  peerDependencies:
+    webpack: ^3.0.0 || ^4.0.0-alpha.0 || ^4.0.0
+  checksum: 76fbb5a6ce1054c473d81b4f5f6cb482b3ec1d13d943786f0f6a29220d6f24e396b55f73b8e31659100a12e66e60ed237807bc42b9835da8bcb1bd283759e204
   languageName: node
   linkType: hard
 
