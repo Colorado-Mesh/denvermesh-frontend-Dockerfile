@@ -25,11 +25,17 @@ const View = (props) => {
                     <ul style={{fontWeight: 'bold' , textAlign: 'left', fontSize: '12px', marginTop: '0px',  color: 'orange'}}>
                         <li>Linode Server costs</li>
                         <li>Mattermost Instance Hosting</li>
-                        <li>Email Server Self-Hosted (Free member @denvermesh.org email addresses available)</li>
+                        <li>Email Server Self-Hosted (Free member @coloradomesh.org email addresses available to Regional Ops)</li>
                         <li>Stickers & Other Materials</li>
                         <li>Domain Name Registration</li>
+                        <li>A Dedicated MQTT observer server for MeshCore</li>
+                        <li>Hosting Custom MeshCore Setup Utilities</li>
+                        <li>Custom MeshCore Range Checker - with live reporting</li>
+                        <li>ColoradoMesh custom Meshtastic Network Analytics</li>
+                        <li>MeshCore custom Network Analytics Service</li>
+                        <li>ColoradoMesh custom developed Desktop Application called "Mesh-Client"</li>
                     </ul>
-                    <h4 style={{fontWeight: 'bold' , textAlign: 'left', fontSize: '14px', marginTop: '0px',  color: 'orange'}}>We are looking to Register as a Non-profit Organization in the near future</h4>
+                    <h4 style={{fontWeight: 'bold' , textAlign: 'left', fontSize: '14px', marginTop: '0px',  color: 'orange'}}>We have as a community decided not to pursue registration as a Non-Profit, and instead maintain a Club status. Founding member Andrew Himelstieb is the current club treasurer, so the link goes to a paypal account managed by him.</h4>
        </Container>
     </div>
   );
