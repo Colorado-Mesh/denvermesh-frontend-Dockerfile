@@ -24,7 +24,6 @@ const View = (props) => {
                     <h5 style={{fontWeight: 'bold' , paddingLeft: '5px', textAlign: 'center', marginTop: '0px', marginRight: '5px', color: 'orange'}}>Donations are used for the following:</h5>
                     <ul style={{fontWeight: 'bold' , textAlign: 'left', fontSize: '12px', marginTop: '0px',  color: 'orange'}}>
                         <li>Linode Server costs</li>
-                        <li>Mattermost Instance Hosting</li>
                         <li>Email Server Self-Hosted (Free member @coloradomesh.org email addresses available to Regional Ops)</li>
                         <li>Stickers & Other Materials</li>
                         <li>Domain Name Registration</li>
