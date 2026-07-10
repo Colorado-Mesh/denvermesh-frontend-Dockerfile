@@ -1,6 +1,6 @@
 # volto-frontend
 
-Frontend for the DenverMesh.org website     
+Frontend for the ColoradoMesh.org website
 
 ## Introduction
 
